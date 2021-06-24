@@ -40,6 +40,31 @@ body{
     width: 327px;
     height: 398px;
     top: 175px;
+    text-align: center;
+    left: 24px;
+}
+
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.63rem;
+    font-weight: normal;
+    margin: 0;
+    width: 327px;
+    height: 76px;
+}
+
+span{
+    display: inline-block;
+
+    color: #54E6AF;
+}
+
+p{
+    color: #C2CBE5;
+    font-size: 0.94rem;
+    line-height: 1.56;
+    margin: 16px 0;
 }
 
 .pattern-dots{

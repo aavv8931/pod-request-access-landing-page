@@ -42,6 +42,12 @@ body{
     top: 175px;
     text-align: center;
     left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    order: 1;
 }
 
 h1{
@@ -67,6 +73,17 @@ p{
     margin: 16px 0;
 }
 
+/* Inputs */
+
+.inputs{
+    order: 3;
+}
+
+/* Post-logos */
+
+.post-logos{
+    order: 2;
+}
 .pattern-dots{
     display: none;
 }

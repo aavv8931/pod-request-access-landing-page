@@ -84,6 +84,30 @@ p{
 .post-logos{
     order: 2;
 }
+
+img#spotify{
+    width: 56px;
+    height: 17px;
+    margin-right: 23px;
+}
+
+img#apple{
+    width: 45px;
+    height: 17px;
+    margin-right: 25px;
+}
+
+img#google{
+    width: 73px;
+    height: 11px;
+    margin-right: 16px;
+}
+
+img#pocket{
+    width: 77px;
+    height: 15px;
+}
+
 .pattern-dots{
     display: none;
 }

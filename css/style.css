@@ -1,3 +1,4 @@
+/* Mobile Screen size 375px x 667px */
 body{
     font-family: 'Chivo', sans-serif;
     background-color: #121725; 
@@ -7,6 +8,8 @@ body{
     overflow-y: hidden;
 }
 
+@media only screen and (max-width: 375px){
+    
 /* Header */
 
 .header-logo img{
@@ -142,8 +145,30 @@ img#pocket{
     height: 15px;
 }
 
-
-
 .pattern-dots{
     display: none;
+}
+
+}
+
+/* Tablet Screen size */
+
+@media only screen and (min-width: 376px) and (max-width: 768px){
+    
+    /* Header Logo */
+    
+    .header-logo img{
+        position: absolute;
+        top: 50px;
+        left: 39px;
+        width: 134.85px;
+        height: 56px;
+    }
+
+    /* Background-img */
+
+    .background-img{
+        background-image: url(../assets/tablet/image-host.jpg);
+    }
+
 }

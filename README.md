@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GITHUB](https://github.com/aavv8931/pod-request-access-landing-page)
-- Live Site URL: [VERCEL](https://your-live-site-url.com)
+- Live Site URL: [VERCEL](https://pod-request-access-landing-page-amber.vercel.app/)
 
 ## My process
 

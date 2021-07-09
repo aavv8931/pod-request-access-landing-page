@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/aavv8931/pod-request-access-landing-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GITHUB](https://github.com/aavv8931/pod-request-access-landing-page)
+- Live Site URL: [VERCEL](https://your-live-site-url.com)
 
 ## My process
 

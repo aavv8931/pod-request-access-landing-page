@@ -7,6 +7,52 @@ body {
     font-style: 400;
 }
 
+h1{
+    color: #FFF;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: normal;
+}
+
+span{
+    color: #54E6AF;
+}
+
+p{
+    color: #C2CBE5;
+}
+
+input{
+    border-radius: 28px;
+    border: hidden;
+}
+
+input#email{
+    background-color: #2C344B;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+input::placeholder {
+    padding-top: 9px;
+    padding-left: 33px;
+    opacity: 0.7;
+}
+
+#button{
+    background-color: #54E6AF;
+    color: #121725;
+}
+
+img#spotify, img#apple, img#google, img#pocket{
+    opacity: 0.5;
+    background-blend-mode: normal;
+}
+
+#error{
+    display: none;
+}
+
 @media only screen and (max-width: 375px) {
 
     /* Header */
@@ -58,23 +104,16 @@ body {
     }
 
     h1 {
-        color: #fff;
-        text-transform: uppercase;
         font-size: 1.63rem;
-        font-weight: normal;
-        margin: 0;
         width: 327px;
         height: 76px;
     }
 
     span {
         display: inline-block;
-
-        color: #54E6AF;
     }
 
     p {
-        color: #C2CBE5;
         font-size: 0.94rem;
         line-height: 1.56;
         margin: 16px 0;
@@ -92,29 +131,18 @@ body {
         display: block;
         width: 100%;
         height: 46px;
-        border-radius: 28px;
-        border: hidden;
+        
     }
 
-    #email {
-        background-color: #2C344B;
-        color: #FFFFFF;
+    input#email {
         font-size: 0.88rem;
         width: 100%;
         margin-bottom: 16px;
-        mix-blend-mode: normal;
-    }
-
-    input::placeholder {
-        padding-top: 9px;
-        padding-left: 33px;
-        opacity: 0.5;
+        
     }
 
     #button {
-        background: #54E6AF;
-        box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.497913);
-        color: #121725;
+        box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.497913);  
         font-size: 0.88rem;
     }
 
@@ -130,34 +158,26 @@ body {
         width: 56px;
         height: 17px;
         margin-right: 23px;
-        opacity: 0.5;
     }
 
     img#apple {
         width: 45px;
         height: 17px;
         margin-right: 25px;
-        opacity: 0.5;
     }
 
     img#google {
         width: 73px;
         height: 11px;
         margin-right: 16px;
-        opacity: 0.5;
     }
 
     img#pocket {
         width: 77px;
         height: 15px;
-        opacity: 0.5;
     }
 
     .pattern-dots {
-        display: none;
-    }
-
-    #error{
         display: none;
     }
 }
@@ -213,18 +233,10 @@ body {
         font-weight: 400;
         font-size: 3rem;
         line-height: 3.5rem;
-        color: #fff;
-        text-transform: uppercase;
-        margin: 0;
-    }
-
-    span {
-        color: #54E6AF;
     }
 
     p {
         margin: 32px 0 0 0;
-        color: #C2CBE5;
         font-size: 1.125rem;
         line-height: 1.75rem;
         width: 445px;
@@ -242,23 +254,9 @@ body {
 
     }
 
-    input {
-        border: hidden;
-    }
-
     input#email {
         width: 100%;
         height: 56px;
-        border-radius: 28px;
-        background-color: #2C344B;
-        color: #FFFFFF;
-        mix-blend-mode: normal;
-    }
-
-    input::placeholder {
-        padding-top: 9px;
-        padding-left: 33px;
-        opacity: 0.7;
     }
 
     #button {
@@ -267,8 +265,6 @@ body {
         left: 260px;
         width: 162px;
         height: 46px;
-        border-radius: 28px;
-        background-color: #54E6AF;
         font-size: 0.875rem;
         line-height: 1.75rem;
     }
@@ -282,23 +278,12 @@ body {
         width: 545px;
     }
 
-    img#spotify {
-        opacity: 0.5;
-    }
-
     img#apple {
         margin: 0 41px 0 36px;
-        opacity: 0.5;
     }
 
     img#google {
         margin-right: 24px;
-        background-blend-mode: normal;
-        opacity: 0.5;
-    }
-
-    img#pocket {
-        opacity: 0.5;
     }
 
     /* Dots */
@@ -308,12 +293,6 @@ body {
         top: 920px;
         left: 30px;
     }
-
-    #error{
-        display: none;
-    }
-
-
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1440px) {
@@ -365,20 +344,10 @@ body {
     h1 {
         font-size: 3.25rem;
         line-height: 3.875rem;
-        text-transform: uppercase;
-        font-weight: normal;
-        color: #FFFFFF;
-        margin: 0;
-    }
-
-    span {
-        color: #54E6AF;
-        ;
     }
 
     p {
         margin: 24px 0 0 0;
-        color: #C2CBE5;
         font-size: 1.125rem;
         line-height: 1.75rem;
         width: 445px;
@@ -386,10 +355,6 @@ body {
     }
 
     /* Inputs */
-
-    input{
-        border: hidden;
-    }
 
     .inputs {
         margin: 40px 0 0 0;
@@ -401,15 +366,9 @@ body {
     input#email {
         width: 100%;
         height: 56px;
-        background: #2C344B;
-        border-radius: 28px;
     }
 
-    input::placeholder {
-        padding-top: 9px;
-        padding-left: 33px;
-        opacity: 0.7;
-    }
+    
 
     #button{
             position: absolute;
@@ -417,8 +376,6 @@ body {
             left: 260px;
             width: 162px;
             height: 46px;
-            border-radius: 28px;
-            background-color: #54E6AF;
             font-size: 0.875rem;
             line-height: 1.75rem;
     }
@@ -436,23 +393,12 @@ body {
         width: 545px;
     }
 
-    img#spotify {
-        opacity: 0.5;
-    }
-
     img#apple {
         margin: 0 41px 0 36px;
-        opacity: 0.5;
     }
 
     img#google {
         margin-right: 24px;
-        background-blend-mode: normal;
-        opacity: 0.5;
-    }
-
-    img#pocket {
-        opacity: 0.5;
     }
 
     .pattern-dots {
@@ -469,8 +415,4 @@ body {
         font-size: 0.75rem;
         margin-top: 3px;
     }
-
-
-
-
 }

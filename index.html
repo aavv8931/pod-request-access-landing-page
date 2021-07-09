@@ -33,8 +33,9 @@
           </p>
         </div>
         <div class="inputs">
-          <input type="email" id="email" placeholder="Email address">
-          <input type="button" id="button" value="Request access">
+            <input type="email" id="email" placeholder="Email address">
+            <input type="submit" id="button" value="Request access">
+            <span id="error">Oops! Please check your email</span>
         </div>
         <div class="post-logos">
           <img id="spotify" src="./assets/desktop/spotify.svg" alt="spotify-logo">
@@ -48,6 +49,30 @@
       </div>
     </div>
   </div>
+  <script>
+    let button = document.getElementById("button");
+    let error = document.getElementById('error');
+    let email = document.getElementById('email');
+    let validation = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+    let validate = function(event){
+
+      event.preventDefault();
+
+      if(email.value == '' || !validation.test(email.value)){
+        error.style.display = 'inline'
+
+        return false
+      }
+
+      return true
+
+      
+    }
+
+    button.addEventListener('click', validate)
+
+  </script>
 </body>
 
 </html>
